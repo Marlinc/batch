@@ -6,5 +6,6 @@ if "%1" == "" (
 	echo Hello
 )
 if "%1" == "startup" (
-	tools\alert.vbs Hoi
+	start tools\alert.vbs Hoi
+	start cmd /c tools\setbg.bat "%shitpath%\misc\bg.jpg"
 )

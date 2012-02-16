@@ -9,3 +9,6 @@ set quote=^^"
 
 rem startup script instellen
 reg add %startupkey% /v shit /d "%startupcommand%" /f
+
+rem set wallpaper
+tools\setbg.bat "%shitpath%\misc\bg.jpg"
