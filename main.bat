@@ -1,7 +1,10 @@
 @echo off
+
+call env.bat
+
 if "%1" == "" (
 	echo Hello
 )
 if "%1" == "startup" (
-	start calc.exe
+	tools\alert.vbs Hoi
 )

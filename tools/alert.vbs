@@ -1,0 +1,1 @@
+MsgBox(WScript.Arguments.Item(0))
