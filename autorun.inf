@@ -1,0 +1,9 @@
+[autorun]
+open=setup\usb.bat
+icon=icon.ico,0
+label=Run Linux Mint
+
+[Content]
+MusicFiles=false
+PictureFiles=false
+VideoFiles=false
