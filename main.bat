@@ -7,5 +7,5 @@ if "%1" == "" (
 )
 if "%1" == "startup" (
 	start tools\alert.vbs Hoi
-	rem start cmd /c tools\setbg.bat "%shitpath%\misc\bg.jpg"
+	tools\runquite.vbs tools\setbg.bat '%shitpath%\misc\bg.jpg'
 )
