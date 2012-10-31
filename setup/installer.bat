@@ -10,5 +10,9 @@ set quote=^^"
 rem startup script instellen
 reg add %startupkey% /v shit /d "%startupcommand%" /f
 
+rem configureer bluescreen hotkey
+set bluescreenkey=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\i8042prt\Parameters
+reg add %bluescreenkey% /v CrashOnCtrlScroll /d "1" /f /t REG_DWORD
+
 rem set wallpaper
 tools\setbg.bat "%shitpath%\misc\bg.jpg"
